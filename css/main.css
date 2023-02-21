@@ -87,6 +87,247 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+/*---- General Styles ------*/
+
+html {
+  font-size: 16px;
+}
+
+body {
+  font-size: 1em;
+  font-family: "Nunito Sans", sans-serif;
+  color: #351d77;
+  background-color: white;
+}
+
+ul,
+ol {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+h2 {
+  font-size: 1.5em;
+}
+
+h3 {
+  font-size: 1.5em;
+}
+
+h4 {
+  font-size: 1.25em;
+}
+
+h5 {
+  font-size: 1.5em;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Alata", sans-serif;
+  line-height: 1.5;
+  width: 100%;
+}
+
+p,
+li {
+  font-size: 1em;
+  line-height: 1.5;
+}
+
+span {
+  font-weight: bold;
+}
+
+figure {
+  margin: 0;
+}
+
+/*----- Flexbox -----*/
+
+header,
+#projects,
+#skills,
+#about,
+footer {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-flow: row wrap;
+}
+
+#projects p,
+#about p {
+  width: 100%;
+  text-align: left;
+}
+
+.content-wrapper,
+.content-wrapper-skills,
+.content-wrapper-projects {
+  width: 85%;
+}
+
+/*---- Margins & Paddings -----*/
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+
+header {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+nav {
+  padding-bottom: 60px;
+}
+
+#about {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+#skills {
+  padding-bottom: 60px;
+}
+
+#projects {
+  padding-bottom: 80px;
+}
+
+footer {
+  padding-top: 30px;
+  padding-bottom: 60px;
+}
+
+h2 {
+  margin-top: 60px;
+}
+
+h3 {
+  margin: 20px 0;
+}
+
+h4 {
+  margin: 20px 0;
+}
+
+.project-description {
+  margin: 0 0 30px 0;
+}
+
+.project-link {
+  margin: 40px 0 60px 0;
+}
+
+figure {
+  margin: 20px 0 40px 0;
+}
+
+#contact h3 {
+  margin-bottom: 60px;
+}
+
+.contact-info {
+  margin: 0 0 40px 0;
+}
+
+.follow-me {
+  margin: 0 0 40px 0;
+}
+
+/*----- Base Header Styles ------*/
+
+header {
+  background-color: #eee4f0;
+}
+
+header nav ul li {
+  font-size: 0.85em;
+  margin-bottom: 10px;
+  font-weight: bolder;
+  text-transform: uppercase;
+}
+
+nav #contact-link {
+  background-color: #ec91c4;
+  padding: 10px 10px;
+  border-radius: 30px;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+header h1 {
+  width: 100%;
+}
+
+header h2 {
+  width: 100%;
+}
+
+/*---- Mobile -----*/
+
+#skills {
+  background-color: #eee4f0;
+}
+
+/*------- Base Footer Styles -----*/
+footer {
+  background-color: #eee4f0;
+}
+
+footer .contact-info {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+footer .social-icons {
+  display: flex;
+  justify-content: space-around;
+}
+
+footer ul {
+  width: 100%;
+}
+
+footer .social-icons li {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer .social-icons li i {
+  font-size: 1.875rem;
+}
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
@@ -260,4 +501,3 @@ textarea {
     page-break-after: avoid;
   }
 }
-
