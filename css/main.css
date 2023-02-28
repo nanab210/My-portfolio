@@ -157,6 +157,7 @@ li {
 
 span {
   font-weight: bold;
+  font-size: larger;
 }
 
 figure {
@@ -217,11 +218,13 @@ nav {
 }
 
 #skills {
+  padding-top: 30px;
   padding-bottom: 60px;
 }
 
 #projects {
-  padding-bottom: 80px;
+  padding-top: 30px;
+  padding-bottom: 60px;
 }
 
 footer {
@@ -242,7 +245,7 @@ h4 {
 }
 
 .live-page-button {
-  margin: 25px 0 60px 0;
+  margin: 50px 0 60px 0;
 }
 
 .project-description {
@@ -250,7 +253,7 @@ h4 {
 }
 
 figure {
-  margin: 20px 0 40px 0;
+  margin: 20px 0 30px 0;
 }
 
 #contact h3 {
@@ -524,6 +527,12 @@ footer .social-icons li i {
   }
   /* Header */
 
+  header .content-wrapper {
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+  }
+
   header nav {
     display: flex;
     justify-content: center;
@@ -568,13 +577,14 @@ footer .social-icons li i {
     width: 45%;
     align-items: center;
   }
-}
 
-@media only screen and (min-width: 1024px) {
+
+
+@media only screen and (min-width: 1200px) {
   /* Desktop */
 
   .content-wrapper {
-    max-width: 1450px;
+    max-width: 1250px;
   }
 
   /* font styles */
@@ -599,7 +609,7 @@ footer .social-icons li i {
     font-size: 1.5em;
   }
   p {
-    font-size: 1.25em;
+    font-size: 1.3em;
   }
 
   header nav ul li {
@@ -614,7 +624,7 @@ footer .social-icons li i {
   }
 
   nav {
-    margin-bottom: 60px;
+    margin-bottom: 80px;
   }
 
   #projects {
@@ -631,6 +641,12 @@ footer .social-icons li i {
     padding-bottom: 80px;
   }
 
+  .about-info h3 {
+    margin: 0;
+    text-align: left;
+    margin-bottom: 20px;
+  }
+
   footer {
     padding: 100px 0 100px 0;
   }
@@ -643,6 +659,34 @@ footer .social-icons li i {
 
   header nav {
     justify-content: flex-end;
+    width: 45%;
+  }
+
+  nav ul li a {
+    padding: 10px 10px;
+  }
+
+  /* About */
+
+  content-wrapper-about {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  #about figure {
+    width: 35%;
+    margin-top: 0;
+  }
+
+  .about-info {
+    width: 58%;
+    margin: 0 40px;
+  }
+
+  /* Footer */
+
+  footer .content-wrapper {
+    max-width: 70%;
   }
 }
 
