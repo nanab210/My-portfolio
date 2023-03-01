@@ -364,7 +364,7 @@ header h2 {
 }
 
 .content-wrapper-about img {
-  border-radius: 2%;
+  border-radius: 2px;
   box-shadow: -10px -10px 10px #eee4f0;
 }
 
@@ -411,6 +411,13 @@ footer .social-icons li {
 footer .social-icons li i {
   font-size: 1.875rem;
 }
+
+footer .copyright {
+  width: 100%;
+  font-size: 0.85em;
+}
+
+.copyright
 
 /* ==========================================================================
    Helper classes
@@ -577,8 +584,7 @@ footer .social-icons li i {
     width: 45%;
     align-items: center;
   }
-
-
+}
 
 @media only screen and (min-width: 1200px) {
   /* Desktop */
@@ -590,7 +596,7 @@ footer .social-icons li i {
   /* font styles */
 
   h1 {
-    font-size: 4em;
+    font-size: 3.5em;
   }
 
   h2 {
@@ -598,7 +604,7 @@ footer .social-icons li i {
   }
 
   h3 {
-    font-size: 2.5em;
+    font-size: 2.25em;
   }
 
   h4 {
@@ -608,12 +614,13 @@ footer .social-icons li i {
   h5 {
     font-size: 1.5em;
   }
+
   p {
     font-size: 1.3em;
   }
 
   header nav ul li {
-    font-size: 1.25em;
+    font-size: 1.125em;
   }
 
   /* margin & padding */
@@ -655,6 +662,7 @@ footer .social-icons li i {
 
   header .content-wrapper {
     justify-content: flex-end;
+    width: 80%;
   }
 
   header nav {
@@ -674,18 +682,24 @@ footer .social-icons li i {
   }
 
   #about figure {
-    width: 35%;
+    width: 30%;
     margin-top: 0;
   }
 
   .about-info {
-    width: 58%;
+    width: 50%;
     margin: 0 40px;
+  }
+
+  /* Projects */
+
+  .portfolio-piece {
+    width: 30%;
   }
 
   /* Footer */
 
-  footer .content-wrapper {
+  footer .contact-wrapper {
     max-width: 70%;
   }
 }
