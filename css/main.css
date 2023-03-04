@@ -87,8 +87,6 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-/*---- General Styles ------*/
-
 html {
   font-size: 16px;
 }
@@ -164,8 +162,6 @@ figure {
   margin: 0;
 }
 
-/*----- Flexbox -----*/
-
 header,
 #projects,
 #skills,
@@ -188,8 +184,6 @@ footer {
 .content-wrapper-projects {
   width: 85%;
 }
-
-/*---- Margins & Paddings -----*/
 
 h1,
 h2,
@@ -268,8 +262,6 @@ figure {
   margin: 0 0 40px 0;
 }
 
-/*----- Base Header Styles ------*/
-
 header {
   background-color: #eee4f0;
 }
@@ -299,8 +291,6 @@ header h1 {
 header h2 {
   width: 100%;
 }
-
-/*-------- Base Mobile Styles ---------*/
 
 #skills {
   background-color: #eee4f0;
@@ -379,7 +369,6 @@ header h2 {
   font-weight: bold;
 }
 
-/*------- Base Footer Styles -----*/
 footer {
   background-color: #eee4f0;
 }
@@ -416,8 +405,6 @@ footer .copyright {
   width: 100%;
   font-size: 0.85em;
 }
-
-.copyright
 
 /* ==========================================================================
    Helper classes
@@ -506,16 +493,11 @@ footer .copyright {
    These examples override the primary ('mobile first') styles.
    Modify as content requires.
    ========================================================================== */
+
 @media only screen and (min-width: 768px) {
-  /*----- Tablets ------*/
-
-  /*--- General Styles ---*/
-
   .content-wrapper {
     max-width: 640px;
   }
-
-  /* Font Styles */
 
   p {
     font-size: 1.125em;
@@ -532,7 +514,6 @@ footer .copyright {
   header nav ul li {
     font-size: 1em;
   }
-  /* Header */
 
   header .content-wrapper {
     display: flex;
@@ -557,8 +538,6 @@ footer .copyright {
     padding-bottom: 70px;
   }
 
-  /* About Section */
-
   .content-wrapper-about {
     display: flex;
     justify-content: center;
@@ -568,13 +547,9 @@ footer .copyright {
     width: 50%;
   }
 
-  /* Skills */
-
   .skill {
     width: 40%;
   }
-
-  /* Projects */
 
   .portfolio-wrapper {
     justify-content: space-around;
@@ -587,13 +562,9 @@ footer .copyright {
 }
 
 @media only screen and (min-width: 1200px) {
-  /* Desktop */
-
   .content-wrapper {
     max-width: 1250px;
   }
-
-  /* font styles */
 
   h1 {
     font-size: 3.5em;
@@ -622,8 +593,6 @@ footer .copyright {
   header nav ul li {
     font-size: 1.125em;
   }
-
-  /* margin & padding */
 
   header {
     padding-top: 80px;
@@ -658,8 +627,6 @@ footer .copyright {
     padding: 100px 0 100px 0;
   }
 
-  /* header */
-
   header .content-wrapper {
     justify-content: flex-end;
     width: 80%;
@@ -673,8 +640,6 @@ footer .copyright {
   nav ul li a {
     padding: 10px 10px;
   }
-
-  /* About */
 
   content-wrapper-about {
     display: flex;
@@ -691,13 +656,9 @@ footer .copyright {
     margin: 0 40px;
   }
 
-  /* Projects */
-
   .portfolio-piece {
     width: 30%;
   }
-
-  /* Footer */
 
   footer .contact-wrapper {
     max-width: 70%;
