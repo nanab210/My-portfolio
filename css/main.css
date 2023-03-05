@@ -274,6 +274,7 @@ header nav ul li {
 }
 
 nav #contact-link {
+  color: white;
   background-color: #ec91c4;
   padding: 10px 10px;
   border-radius: 30px;
@@ -303,6 +304,7 @@ header h2 {
   text-transform: uppercase;
   font-size: 1em;
   font-weight: bold;
+  color: white;
 }
 
 .portfolio-wrapper {
